@@ -1,0 +1,4 @@
+import random
+numb = int(input("введите количество чисел: "))
+number = ["четное" if x %2 == 0 else "нечетное"for x in range(numb)]
+print(number)
