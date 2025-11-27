@@ -1,5 +1,5 @@
 import random
 x = 100
 number = [random.randint(0, 9) for _ in range(x)]
-result = [["Fizz" if a%3 == 0 else a for a in range(x)], ['Buzz' if a%5 == 0 else a for a in range(x)], ['FizzBuzz' if a%15 == 0 else a for a in range(x)]]
+result = ["Fizz" if a%3 == 0 else 'Buzz' if a%5 == 0 else 'FizzBuzz' if a%15 == 0 else a for a in range(x)]
 print(result)
