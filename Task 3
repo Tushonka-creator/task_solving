@@ -1,0 +1,3 @@
+list = int(input("Размер списка: "))
+result = [0 if x <= 10 else x for x in range(list)]
+print(result)
