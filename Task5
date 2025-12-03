@@ -1,0 +1,9 @@
+word1 = input("введите первое слово:")
+word2 = input("введите второе слово:")
+word3 = input("введите третье слово:")
+word4 = input("введите четвертое слово:")
+word5 = input("введите пятое слово:")
+word6 = input("введите шестое слово:")
+list = [word1, word2, word3, word4, word5, word6]
+result = [5 if len(letter) > 5 else len(letter) for letter in list]
+print(result)
