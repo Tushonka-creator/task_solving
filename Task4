@@ -1,0 +1,4 @@
+dict_size = int(input("ведите размер словаря : "))
+dictionary = {}
+[dictionary.update({x: "even" if x % 2 == 0 else "odd"}) for x in range(dict_size)]
+print(dictionary)
