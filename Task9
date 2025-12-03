@@ -1,0 +1,9 @@
+numb1 = int(input("введите первое число:"))
+numb2 = int(input("введите второе число:"))
+numb3 = int(input("введите третье число:"))
+numb4 = int(input("введите четвертое число:"))
+numb5 = int(input("введите пятое число:"))
+numb6 = int(input("введите шестое число:"))
+list = [numb1, numb2, numb3, numb4, numb5, numb6]
+result = ["High" if numb>50 else "Medium" if 50>numb>20 else "Low" for numb in list]
+print(result)
